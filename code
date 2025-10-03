@@ -1,0 +1,30 @@
+def calculate_total(marks):
+    # TODO: sum the marks and return total
+    pass
+
+def calculate_percentage(total):
+    # TODO: calculate percentage out of 500
+    pass
+
+def assign_grade(percentage):
+    # TODO: return grade A, B, C, or F
+    pass
+
+def main():
+    student = input("Enter student name: ")
+    marks = []
+    for i in range(5):
+        mark = int(input(f"Enter mark for subject {i+1}: "))
+        marks.append(mark)
+
+    total = calculate_total(marks)
+    percentage = calculate_percentage(total)
+    grade = assign_grade(percentage)
+
+    print(f"\nResult for {student}:")
+    print(f"Total Marks: {total}")
+    print(f"Percentage: {percentage}%")
+    print(f"Grade: {grade}")
+
+if __name__ == "__main__":
+    main()
