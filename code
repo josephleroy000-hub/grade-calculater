@@ -1,13 +1,14 @@
+
 def calculate_total(marks):
-    # TODO: sum the marks and return total
+    # TODO: sum marks and return integer total
     pass
 
 def calculate_percentage(total):
-    # TODO: calculate percentage out of 500
+    # TODO: percentage out of 500 -> float
     pass
 
 def assign_grade(percentage):
-    # TODO: return grade A, B, C, or F
+    # TODO: return 'A', 'B', 'C' or 'F'
     pass
 
 def main():
@@ -26,5 +27,5 @@ def main():
     print(f"Percentage: {percentage}%")
     print(f"Grade: {grade}")
 
-if __name__ == "__main__":
+if _name_ == "_main_":
     main()
